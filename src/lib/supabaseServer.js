@@ -7,7 +7,6 @@ export function supabaseAdmin() {
     { auth: { persistSession: false } }
   );
 }
-
 export function supabaseAnon() {
   return createClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL,
