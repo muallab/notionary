@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+:root { color-scheme: light; }
+body { background: white; color: #111827; } /* text-gray-900 */
